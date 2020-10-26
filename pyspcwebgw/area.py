@@ -12,8 +12,8 @@ class Area:
 
     def __init__(self, gateway, spc_area):
         self._gateway = gateway
-        self._id = spc_area['id']
-        self._name = spc_area['name']
+        self._id = spc_area['area_id']
+        self._name = spc_area['area_name']
         self._verified_alarm = False
         self.zones = None
 
